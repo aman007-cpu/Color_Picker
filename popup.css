@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(246, 239, 239);
+
+}
+.wrapper{
+    width: 300px;
+    text-align: center;
+    
+}
+
+.changecolorbtn{
+    width: 200px;
+    border: 3px solid rgb(53, 53, 51);
+    border-radius: 10px;
+    padding: 5px;
+    background: orangered;
+    cursor: pointer;
+}
+.changecolorbtn:hover{
+    background: rgb(0, 36, 61);
+    color: antiquewhite;
+}
+.colorGrid{
+    width: 20px;
+    height: 20px;
+    border-radius: 2px;
+    display: inline-block;
+}
+
+.selectedColor{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+.colorValue{
+    margin-left: 5px;
+    font-weight: bold;
+}
